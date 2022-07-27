@@ -105,6 +105,7 @@
     <!-- header section End -->
     <!-- main section start -->
     <main>
+      <!-- course section  -->
       <section class="container my-5">
        <div class="text-center">
         <h2 class="fs-1 fw-bold">Discover Our Popular <br> Courses</h2>
@@ -143,7 +144,7 @@
             </div>
           </div>
           <div class="col">
-            <div class="border rounded-2 d-flex flex-column flex-md-row ">
+            <div class="border rounded-2 d-flex flex-column flex-md-row  ">
               <img class="img-fluid" src="images/course/course-4.png"  alt="">
               <div class="p-3">
                 <h5>Digital Marketing</h5>
@@ -179,31 +180,78 @@
         </div>
       </section>
 
+      <!-- working section  -->
       <section class="container my-5">
         <div class="row  g-0 p-3">
-          <div class="col col-12  col-md-5">
+          <div class="col col-12  col-md-5 d-flex" >
             <img class="img-fluid" src="images/working.png" alt="">
           </div>
-          <div class="col col-12 col-md-7 bg-light p-3 d-flex flex-column  ">
+          <div class="col col-12 col-md-7 bg-light p-3 d-flex flex-column  justify-content-center">
             <h2 class="fw-bold">Explore The elearning
               Institute</h2>
-              <p>A design is a plan or specification for the construction of an object or system or for the implementation of an activity or process or the result of that plan or specification in the form of a prototype, product, or process.</p>
-              <div class="d-flex justify-content-evenly">
-                <div>
+              <p>A design is a plan or specification for the construction of an object or system or for the implementation of an activity or process or the result. <br> product, or process.system or for the implementation of an activity or process or the result.</p>
+              <div class="d-flex ">
+                <div class="pe-4">
                   <h3 class="fw-bold">4.5k+</h3>
-                  <p>online course</p>
+                  <p><small>online course</small></p>
                 </div>
-                <div>
+                <div class="pe-4">
                   <h3 class="fw-bold">700+</h3>
-                  <p>Expert Member</p>
+                  <p><small>Expert Member</small></p>
                 </div>
                 <div>
                   <h3 class="fw-bold">1k+</h3>
-                  <p>Rating & Review</p>
+                  <p><small>Rating & Review</small></p>
+                </div>
+              </div>
+              <div>
+                <button class="btn btn-primary fw-bold">Read More</button>
+              </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- register section  -->
+      <section class="container my-5">
+        <div class="bg-primary rounded-2 p-5 d-flex flex-column flex-md-row justify-content-evenly align-items-center">
+          <div class="lh-lg">
+            <h2 class="text-white">Ready to join? </h2>
+            <p class="text-white">Our team of talented writers have a well established <br> reputation of producing  quality content.</p>
+          </div>
+          <div>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-light text-primary fw-bold py-2 px-5 fs-5" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Register Now
+            </button>
+
+             <!-- Modal -->
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Register with Email</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <div class="form-floating mb-3">
+                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                        <label for="floatingInput">Email address</label>
+                      </div>
+                      <div class="form-floating">
+                        <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                        <label for="floatingPassword">Password</label>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Register</button>
+                    </div>
+                  </div>
                 </div>
               </div>
           </div>
         </div>
+
       </section>
 
     </main>
