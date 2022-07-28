@@ -1,3 +1,12 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
 .fs-70{
     font-size: 4rem;
+}
+.ptop-1{
+    padding: 100px 0px;
+}
+.orange{
+    color: orange;
 }
