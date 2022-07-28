@@ -19,3 +19,6 @@ body{
 .bg-gray{
     background-color: rgb(71, 71, 71);
 }
+.py{
+    padding: 80px 0px;
+}
